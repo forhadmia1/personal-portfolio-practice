@@ -1,0 +1,23 @@
+#hero-area{
+    background-color: #212121;
+}
+#about{
+    background-color: #262626;
+}
+
+.upper-line{
+    background-color: red;
+    width: 85%;
+    height: 10px;
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+.side-line{
+    background-color: red;
+    width: 10px;
+    height: 85%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
