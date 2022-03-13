@@ -1,12 +1,12 @@
 #hero-area{
     background-color: #212121;
 }
-#about{
+#main{
     background-color: #262626;
 }
 
 .upper-line{
-    background-color: red;
+    background-color: #31D2F2;
     width: 85%;
     height: 10px;
     position:absolute;
@@ -14,10 +14,49 @@
     left: 0;
 }
 .side-line{
-    background-color: red;
+    background-color: #31D2F2;
     width: 10px;
     height: 85%;
     position: absolute;
     top: 0;
     left: 0;
 }
+.bar{
+    width: 50px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: #31D2F2;
+}
+.card1-color{
+    background-color: rgba(0, 174, 255, 0.233);
+}
+.card2-color{
+    background-color: rgba(227, 31, 113, 0.233);
+}
+.card3-color{
+    background-color: rgba(136, 56, 180, 0.233);
+}
+.c-color{
+    background-color:#262626;
+}
+.card-1{
+    border-bottom: 10px solid #00AEFF;
+    border-radius: 10px;
+}
+.card-2{
+    border-bottom: 10px solid #E31F71;
+    border-radius: 10px;
+}
+.card-3{
+    border-bottom: 10px solid #7c2dad;
+    border-radius: 10px;
+}
+.c-color:hover{
+    background-color: #00FFBB;
+}
+
+/* profile container */
+.profile-container{
+    height: 400px;
+}
+
