@@ -138,3 +138,22 @@
     top: -450px;
     left: 150px;
 }
+/* contact section */
+.icon{
+    background-color: #31D2F2;
+    padding: 20px;
+    margin-right: 10px;
+}
+.input-width{
+    width: 47%;
+}
+::placeholder{
+    color: white;
+    font-weight: bold;
+}
+.msg{
+    border-radius: 10px;
+}
+footer{
+    background-color: #212121;
+}
