@@ -62,22 +62,22 @@
 }
 /* project background */
 .project-1{
-    background-image: url("/img/projects-img/02877a1b5ed012399a45fffc46d30d58.jpg");
+    background-image: url("/img/image/project-1.jpg");
 }
 .project-2{
-    background-image: url("/img/projects-img/1507f8ab5dc08e311116659a17ab6274.jpg");
+    background-image: url("/img/image/project-2.jpg");
 }
 .project-3{
-    background-image: url("/img/projects-img/32398d09cb9d0963018407d77579ed09.png");
+    background-image: url("/img/image/project-3.png");
 }
 .project-4{
-    background-image: url("/img/projects-img/bc504362fbad27fa67a3df7f88681efe.jpg");
+    background-image: url("/img/image/project-4.jpg");
 }
 .project-5{
-    background-image: url("/img/projects-img/e3b2569ad07f580b81d21bc7116b487d.jpg");
+    background-image: url("/img/image/project-5.jpg");
 }
 .project-6{
-    background-image: url("/img/projects-img/images.jpg");
+    background-image: url("/img/image/project-6.jpg");
 }
 /* project style */
 .profile-wallpaper{
