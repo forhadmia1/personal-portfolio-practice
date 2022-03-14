@@ -52,11 +52,89 @@
     border-radius: 10px;
 }
 .c-color:hover{
-    background-color: #00FFBB;
+    background-color: #7d4dbd;
 }
 
-/* profile container */
-.profile-container{
-    height: 400px;
+/* protfolio section style*/
+.card-container{
+    height: 450px;
+    width: 350px;
 }
-
+/* project background */
+.project-1{
+    background-image: url(/img/projects/02877a1b5ed012399a45fffc46d30d58.jpg);
+}
+.project-2{
+    background-image: url(/img/projects/1507f8ab5dc08e311116659a17ab6274.jpg);
+}
+.project-3{
+    background-image: url(/img/projects/32398d09cb9d0963018407d77579ed09.png);
+}
+.project-4{
+    background-image: url(/img/projects/bc504362fbad27fa67a3df7f88681efe.jpg);
+}
+.project-5{
+    background-image: url(/img/projects/e3b2569ad07f580b81d21bc7116b487d.jpg);
+}
+.project-6{
+    background-image: url(/img/projects/images.jpg);
+}
+/* project style */
+.profile-wallpaper{
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 5px 5px 20px black;
+    border-radius: 5px;
+}
+.info{
+    position: absolute;
+    opacity:0;
+    transition: opacity 0.5s linear 0.5s;
+}
+.card-btn{
+    background-image: linear-gradient(75deg,skyblue,violet);
+}
+/* protfolio card hover  */
+.profile-wallpaper::before{
+    content: '';
+    background-image: linear-gradient(75deg,skyblue,violet);
+    top: -600px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    transform: skew(45deg);
+    transition: 0.75s;
+    z-index: 1;
+    
+}
+.profile-wallpaper::after{
+    content: '';
+    background-image: linear-gradient(75deg,rgb(42, 9, 133),rgb(182, 21, 182));
+    top: 50px;
+    left: -200px;
+    position: absolute;
+    width: 100%;
+    height: 800px;
+    transform: skew(45deg);
+    transition: 0.75s;
+    z-index: 1;
+}
+.profile-wallpaper:hover {
+    background-image: none;
+}
+.profile-wallpaper:hover .info{
+    opacity: 1;
+    
+}
+.profile-wallpaper:hover::before{
+    top: 110px;
+    left: -150px;
+}
+.profile-wallpaper:hover::after{
+    top: -450px;
+    left: 150px;
+}
